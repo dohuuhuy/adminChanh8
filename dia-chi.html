@@ -1,126 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vn">
 
 <head class="Header">
 </head>
 
 <body id="page-top">
+
     <!-- Page Wrapper -->
     <div id="wrapper">
+
         <!-- Sidebar -->
         <div class="Sidebar"></div>
-        <!-- End of Sidebar -->
 
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
+
             <!-- Main Content -->
             <div id="content">
+
                 <!-- Topbar -->
                 <div class="Topbar"></div>
-                <!-- End of Topbar -->
+
+                <!-- Breadcrumb -->
+                <div class="Breadcrumb"></div>
 
                 <!-- Begin Page Content -->
-                <div class="container-fluid">
+                <div class="container-fluid"></div>
 
-                    <!-- Breadcrumb -->
-                    <div class="Breadcrumb"></div>
-
-                    <!-- Content Row -->
-
-                    <div class="card shadow">
-                        <div class="card-header">
-                            <h6 class="m-0 font-weight-bold text-primary">Địa chỉ</h6>
-                        </div>
-                        <!-- Editable table -->
-                        <div class="card-body text-center">
-                            <div class="table-content">
-                                <table class="table table-borded table-responsive table-hover " id="table-list">
-                                    <thead class="">
-                                        <tr>
-                                            <td>Chọn</td>
-                                            <td>Người liên hệ</td>
-                                            <td>Số điện thoại</td>
-                                            <td>Email</td>
-                                            <td>Địa chỉ</td>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="text-center">
-                                                <input type="radio" id="test1" name="radio-group" checked>
-                                            </td>
-                                            <td>Trảng Bàng</td>
-                                            <td>0583538872</td>
-                                            <td>jhsdfgh@hotmail.com</td>
-                                            <td>Phường 12, quận 10, TP.HCM</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="text-center">
-                                                <input type="radio" id="test1" name="radio-group" checked>
-                                            </td>
-                                            <td>Sams</td>
-                                            <td>0934834343</td>
-                                            <td>hhfdfg@hotmail.com</td>
-                                            <td> 29.7/1 bis đường 44, Phường 12, quận 10, TP.HCM</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <button class="btn btn-info" id="add"> <i class="fas fa-plus"></i>Thêm địa chỉ</button>
-                            </div>
-                        </div>
-                        <!-- Editable table -->
-
-                        <div class="card-header">
-                            <h6 class="m-0 font-weight-bold text-primary">Địa chỉ thanh toán</h6>
-                        </div>
-                        <!-- Editable table -->
-                        <div class="card-body text-center">
-                            <p>Sams, 0934834343, 29.7/1 bis đường 44, Phường 12, quận 10, TP.HCM</p>
-                        </div>
-                    </div>
-                    <!-- /.container-fluid -->
-                </div>
-                <!-- End of Main Content -->
-
-                <!-- Footer -->
-                <div class="Footer"></div>
-                <!-- End of Footer -->
             </div>
-            <!-- End of Content Wrapper -->
+            <!-- Footer -->
+            <div class="Footer"></div>
+
         </div>
-        <!-- End of Page Wrapper -->
 
-        <!-- Scroll to Top Button-->
-        <div class="ScrollToTop"></div>
+    </div>
 
-        <!-- notiLogout Modal-->
-        <div class="ModalLogout"></div>
+    <!-- Scroll to Top Button-->
+    <div class="ScrollToTop"></div>
 
-        <!-- noti delete address -->
-        <div class="deleteAddressModal"></div>
+    <!-- notiLogout Modal-->
+    <div class="ModalLogout"></div>
 
-        <!-- Custom scripts for all pages-->
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-        <!-- Core plugin JavaScript-->
-        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Custom scripts for all pages-->
 
-        <!-- Custom js one page -->
-        <script src="js/table.js"></script>
+    <!-- Import component -->
+    <script>
 
-        <!-- Import component -->
-        <script>
-            $(() => $(".Header").load("./component/Organisms/Header.html"))
-            $(() => $(".Sidebar").load("./component/Organisms/Sidebar.html"))
-            $(() => $(".Breadcrumb").load("./component/Organisms/Breadcrumb.html"))
-            $(() => $(".Footer").load("./component/Organisms/Footer.html"))
-            $(() => $(".ScrollToTop").load("./component/Atoms/ScrollToTop.html"))
-            $(() => $(".Topbar").load("./component/Organisms/Topbar.html"))
-            $(() => $(".deleteAddressModal").load("./component/Molecules/deleteAddressModal.html"))
-            $(() => $(".ModalLogout").load("./component/Molecules/logoutModal.html"))
-        </script>
+        $(() => $(".Header").load("./component/Organisms/Header.html"))
+        $(() => $(".Sidebar").load("./component/Organisms/Sidebar/index.html"))
+        $(() => $(".Breadcrumb").load("./component/Organisms/Breadcrumb.html"))
+        $(() => $(".container-fluid").load("./component/Main/address.html"))
+        $(() => $(".Footer").load("./component/Organisms/Footer.html"))
+        $(() => $(".ScrollToTop").load("./component/Atoms/ScrollToTop.html"))
+        $(() => $(".Topbar").load("./component/Organisms/Topbar.html"))
+        $(() => $(".ModalLogout").load("./component/Molecules/logoutModal.html"))
+    </script>
 
 </body>
 

@@ -1,7 +1,7 @@
-<ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion" id="accordionSidebar">
+<ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion accordionSidebar" id="accordionSidebar">
     <!-- Sidebar - Brand -->
     <a style="height: auto" class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-        <img class="img-fluid" src="./img/Chanh-logo.png" />
+        <img class="img-fluid logo-chanh" src="./img/Chanh-logo.png" />
     </a>
 
     <!-- Divider -->
@@ -12,14 +12,6 @@
 
     <!-- Nav Item - Pages Collapse Menu -->
 
-    <!-- <li class="nav-item text-center">
-        <a href="#" class="btn btn-secondary btn-icon-split">
-            <span class="icon text-white-50">
-                <i class="fas fa-plus"></i>
-            </span>
-            <span class="text">Tạo đang hàng</span>
-        </a>
-    </li> -->
     <li class="nav-item text-center">
         <a href="#" class="nav-link text-center text-uppercase text-success font-weight-bold">
             <span class="">
@@ -58,9 +50,9 @@
         <div id="setting" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <!-- <h6 class="collapse-header">Custom Components:</h6> -->
-                <a class="collapse-item" href="buttons.html">Cài đặt tài khoản</a>
-                <a class="collapse-item active" href="cards.html">Địa chỉ của tôi</a>
-                <a class="collapse-item" href="buttons.html">Thông báo</a>
+                <a class="collapse-item" href="/Cai-dat-tai-khoan.html">Cài đặt tài khoản</a>
+                <a class="collapse-item active" href="/dia-chi.html">Địa chỉ của tôi</a>
+                <a class="collapse-item" href="/thong-bao.html">Thông báo</a>
             </div>
         </div>
     </li>
@@ -74,7 +66,7 @@
     </div>
 </ul>
 
-<!-- Bootstrap core JavaScript-->
-
-
-<script src="js/sb-admin-2.min.js"></script>
+<script src="js/admin.js"></script>
+<script>
+    $('head').append('<link rel="stylesheet" href="./component/Organisms/Sidebar/Sidebar.styles.css"/>');
+</script>

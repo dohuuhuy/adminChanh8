@@ -2,7 +2,6 @@
 <html lang="vn">
 
 <head class="Header">
-
 </head>
 
 <body id="page-top">
@@ -24,6 +23,7 @@
 
                 <!-- Breadcrumb -->
                 <div class="Breadcrumb"></div>
+
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid"></div>
@@ -53,10 +53,10 @@
 
     <!-- Import component -->
     <script>
+        $(() => $(".container-fluid").load("./component/Main/Infomation.html"))
         $(() => $(".Header").load("./component/Organisms/Header.html"))
         $(() => $(".Sidebar").load("./component/Organisms/Sidebar/index.html"))
         $(() => $(".Breadcrumb").load("./component/Organisms/Breadcrumb.html"))
-        $(() => $(".container-fluid").load("./component/Main/Blank/index.html"))
         $(() => $(".Footer").load("./component/Organisms/Footer.html"))
         $(() => $(".ScrollToTop").load("./component/Atoms/ScrollToTop.html"))
         $(() => $(".Topbar").load("./component/Organisms/Topbar.html"))

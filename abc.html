@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<head class="Header">
+    <!-- <script script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
 </head>
 
 <body>
     demo 1
     <div class="Demo1"></div>
 </body>
+
+<!-- Bootstrap core JavaScript-->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Core plugin JavaScript-->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
 <script>
-    $(() => $(".Demo1").load("./demo1.html"))
+    $(() => $(".Header").load("./component/Organisms/Header.html"))
+    $(() => $(".Demo1").load("./component/Atoms/Demo/demo1.html"))
 </script>
+
 
 </html>

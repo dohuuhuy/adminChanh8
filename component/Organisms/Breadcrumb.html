@@ -7,3 +7,9 @@
         <!-- <li class="breadcrumb-item active" aria-current="page">Data</li> -->
     </ol>
 </nav>
+
+<script>
+    var path = window.location.pathname;
+    var page = path.split("/").pop().split(".html");
+    console.log(`page`, page[0])
+</script>
