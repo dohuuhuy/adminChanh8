@@ -1,63 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vn">
 
 <head class="Header">
+
 </head>
 
 <body id="page-top">
+
     <!-- Page Wrapper -->
     <div id="wrapper">
+
         <!-- Sidebar -->
         <div class="Sidebar"></div>
 
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
+
             <!-- Main Content -->
             <div id="content">
+
                 <!-- Topbar -->
                 <div class="Topbar"></div>
 
+                <!-- Breadcrumb -->
+                <!-- <div class="Breadcrumb"></div> -->
+
                 <!-- Begin Page Content -->
-                <div class="container-fluid">
+                <div class="container-fluid"></div>
 
-                    <!-- Breadcrumb -->
-                    <div class="Breadcrumb"></div>
-
-                    <!-- Content Row -->
-                    <div class="row">
-                        <div class="card shadow ">
-                            <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">
-                                    Development Approach
-                                </h6>
-                            </div>
-                            <div class="card-body">
-                                <p>
-                                    SB Admin 2 makes extensive use of Bootstrap 4 utility
-                                    classes in order to reduce CSS bloat and poor page
-                                    performance. Custom CSS classes are used to create custom
-                                    components and custom utility classes.
-                                </p>
-                                <p class="mb-0">
-                                    Before working with this theme, you should become familiar
-                                    with the Bootstrap framework, especially the utility
-                                    classes.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
-
             <!-- Footer -->
             <div class="Footer"></div>
 
         </div>
-    </div>
 
+    </div>
 
     <!-- Scroll to Top Button-->
     <div class="ScrollToTop"></div>
+
     <!-- notiLogout Modal-->
     <div class="ModalLogout"></div>
 
@@ -70,16 +51,18 @@
 
     <!-- Custom scripts for all pages-->
 
+    <!-- Import component -->
     <script>
         $(() => $(".Header").load("./component/Organisms/Header.html"))
         $(() => $(".Sidebar").load("./component/Organisms/Sidebar/index.html"))
         $(() => $(".Breadcrumb").load("./component/Organisms/Breadcrumb.html"))
-        $(() => $(".container-fluid").load("./component/Main/Blank/index.html"))
+        $(() => $(".container-fluid").load("./component/Main/MainIndex/index.html"))
         $(() => $(".Footer").load("./component/Organisms/Footer.html"))
         $(() => $(".ScrollToTop").load("./component/Atoms/ScrollToTop.html"))
         $(() => $(".Topbar").load("./component/Organisms/Topbar.html"))
         $(() => $(".ModalLogout").load("./component/Molecules/logoutModal.html"))
     </script>
+
 </body>
 
 </html>

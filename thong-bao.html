@@ -2,6 +2,7 @@
 <html lang="vn">
 
 <head class="Header">
+
 </head>
 
 <body id="page-top">
@@ -11,7 +12,6 @@
 
         <!-- Sidebar -->
         <div class="Sidebar"></div>
-        <!-- End of Sidebar -->
 
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
@@ -22,21 +22,15 @@
                 <!-- Topbar -->
                 <div class="Topbar"></div>
 
+                <!-- Breadcrumb -->
+                <div class="Breadcrumb"></div>
+
                 <!-- Begin Page Content -->
-                <div class="container-fluid">
-
-                    <!-- Page Heading -->
-                    <h1 class="h3 mb-4 text-gray-800">Blank Page</h1>
-
-                </div>
-                <!-- /.container-fluid -->
+                <div class="container-fluid"></div>
 
             </div>
-            <!-- End of Main Content -->
-
             <!-- Footer -->
             <div class="Footer"></div>
-            <!-- End of Footer -->
 
         </div>
 
@@ -60,12 +54,12 @@
     <!-- Import component -->
     <script>
         $(() => $(".Header").load("./component/Organisms/Header.html"))
-        $(() => $(".Sidebar").load("./component/Organisms/Sidebar.html"))
+        $(() => $(".Sidebar").load("./component/Organisms/Sidebar/index.html"))
         $(() => $(".Breadcrumb").load("./component/Organisms/Breadcrumb.html"))
+        $(() => $(".container-fluid").load("./component/Main/SettingNoti/index.html"))
         $(() => $(".Footer").load("./component/Organisms/Footer.html"))
         $(() => $(".ScrollToTop").load("./component/Atoms/ScrollToTop.html"))
         $(() => $(".Topbar").load("./component/Organisms/Topbar.html"))
-        $(() => $(".deleteAddressModal").load("./component/Molecules/deleteAddressModal.html"))
         $(() => $(".ModalLogout").load("./component/Molecules/logoutModal.html"))
     </script>
 
