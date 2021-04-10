@@ -11269,9 +11269,10 @@ a:focus {
 }
 
 .bg-login-image {
-  background: url("https://source.unsplash.com/K4mSJ7kc0As/600x800");
+  background: url("https://i.pinimg.com/564x/5a/fc/2b/5afc2b77e250139760f08ebcbac886d7.jpg");
   background-position: center;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .bg-register-image {
