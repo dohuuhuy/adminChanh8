@@ -14,11 +14,9 @@ var newColHtml =
   '<button id="bEdit" type="button" class="btn btn-sm btn-default" onclick="rowEdit(this);">' +
   '<i class="fas fa-edit"></i>' +
   "</button>" +
-  '<a href="#" data-toggle="modal" data-target="#deleteAddressModal">' +
-  '<button id="bElim" type="button" class="btn btn-sm btn-default" >' +
+  '<a href="#" data-toggle="modal" data-target="#deleteAddressModal" onclick="rowElim(this)" id="bElim" type="button" class="btn btn-sm btn-default">' +
   '<i class="fas fa-trash"></i>' +
   "</a>" +
-  "</button>" +
   '<button id="bAcep" type="button" class="btn btn-sm btn-default" style="display:none;" onclick="rowAcep(this);">' +
   '<i class="fas fa-check"></i>' +
   "</button>" +
