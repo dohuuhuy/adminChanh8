@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="vn">
 
-<head class="Header">
-
-</head>
+<head class="Header"></head>
 
 <body id="page-top">
 
@@ -23,7 +21,7 @@
                 <div class="Topbar"></div>
 
                 <!-- Breadcrumb -->
-                <div class="Breadcrumb"></div>
+                <!-- <div class="Breadcrumb"></div> -->
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid"></div>
@@ -31,16 +29,10 @@
             </div>
             <!-- Footer -->
             <div class="Footer"></div>
-
         </div>
-
     </div>
 
-    <!-- Scroll to Top Button-->
-    <div class="ScrollToTop"></div>
 
-    <!-- notiLogout Modal-->
-    <div class="ModalLogout"></div>
 
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -55,12 +47,10 @@
     <script>
         $(() => $(".Header").load("./component/Organisms/Header.html"))
         $(() => $(".Sidebar").load("./component/Organisms/Sidebar/index.html"))
-        $(() => $(".Breadcrumb").load("./component/Organisms/Breadcrumb.html"))
-        $(() => $(".container-fluid").load("./component/Main/Blank/index.html"))
-        $(() => $(".Footer").load("./component/Organisms/Footer.html"))
-        $(() => $(".ScrollToTop").load("./component/Atoms/ScrollToTop.html"))
         $(() => $(".Topbar").load("./component/Organisms/Topbar.html"))
-        $(() => $(".ModalLogout").load("./component/Molecules/logoutModal.html"))
+        $(() => $(".Breadcrumb").load("./component/Organisms/Breadcrumb.html"))
+        $(() => $(".container-fluid").load("./component/Main/MainIndex/index.html"))
+        $(() => $(".Footer").load("./component/Organisms/Footer.html"))
     </script>
 
 </body>
